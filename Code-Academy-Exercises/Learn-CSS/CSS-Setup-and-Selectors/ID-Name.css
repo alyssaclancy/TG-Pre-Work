@@ -1,0 +1,25 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+#article-title {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+/*I learned that you can apply unique styling to an element by adding an id attribute.
+The id attribute is prepended with a # in CSS and in HTML the id is referenced as an attribute just like the class is.
+The related HTML code that was updated is below:
+<h1 class="title uppercase" id="article-title">Top Vacation Spots</h1>*/

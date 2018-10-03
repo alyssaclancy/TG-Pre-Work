@@ -1,0 +1,34 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+ /*I learned that the most specific selector in CSS is an id. In this code the id was removed and replaced with
+ class identifiers to make it easier as the code continues to grow. Class selectors cursive and capitalize were added to the
+ CSS and the HTML code line below was updated to reference these.
+
+ <h1 class="title cursive capitalize">Top Vacation Spots</h1>
+ */

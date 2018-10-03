@@ -1,0 +1,32 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+#article-title {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+.publish-time {
+  color: gray;
+}
+
+
+/*CSS can select an HTML element by class (intended to be reused), IDs (meant to style one element), and tags. The CSS code
+was updated to include a class for publish-time.
+The HTML code that was updated to define this specific h6 class to be "publish-time" is included below:
+
+<h6 class="publish-time">Published: 2 Days Ago</h6>
+*/

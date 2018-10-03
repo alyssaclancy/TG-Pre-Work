@@ -1,0 +1,41 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+.title {
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+h5 {
+  color: rebeccapurple;
+}
+
+.description h5 {
+  color: teal;
+}
+
+/*I learned that the tag selector is more general and will be overridden when a class selector exists for that specific tagged line.
+Here the h5 selector indicates rebeccapuruple, but the .description h5 overrides the color defined in h5 for h5 headings in the description class. */

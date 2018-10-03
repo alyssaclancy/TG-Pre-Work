@@ -1,0 +1,40 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+.title {
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+h5 {
+  color: rebeccapurple !important;
+}
+.description h5 {
+  color: teal;
+}
+
+/*!important can be used to ensure that style is applied, despite what is defined in an otherwise more specific selector.
+This is only useful when the element appears the same way 100% of the time as it cannot be overridden.*/

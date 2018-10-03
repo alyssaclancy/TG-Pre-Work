@@ -1,0 +1,35 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+.title {
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/*I learned that you can chain selectors by including a tag followed by a class (separated by a period).
+h2.destination was added (chaining selectors h2 (tag) and destination (class)). THis would apply only to elements with
+both of those defined in HTML.*/
