@@ -1,0 +1,11 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+/*I learned that tag names in CSS apply the style to all of the elements with that tag in HTML.
+Here I added an h1 tag name and included color: maroon; to make the text color of h1 elements in the
+HTML file maroon. The attributes are separated by semi-colons and housed between curly brackets following the tag name.*/

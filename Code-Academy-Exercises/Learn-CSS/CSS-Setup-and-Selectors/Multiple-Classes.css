@@ -1,0 +1,19 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/*I learned you can add multiple class attributes to an element in HTML by separating them with a space.
+Here I created the .uppercase class in the CSS file and updated the HTML line  <h1 class="title uppercase">Top Vacation Spots</h1>
+to add the second class to this level 1 heading.*/

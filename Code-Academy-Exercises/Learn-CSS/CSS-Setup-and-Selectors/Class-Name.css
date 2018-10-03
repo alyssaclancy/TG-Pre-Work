@@ -1,0 +1,15 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color: teal;
+}
+
+/*I learned that attributes such as "class" can also be used as a CSS selector. Above, the "title" class is indicated by .title
+(a period must come before the class name in CSS) and the color of the text becomes teal. The title is also an h1 heading
+but the class selector overrides it here.*/
