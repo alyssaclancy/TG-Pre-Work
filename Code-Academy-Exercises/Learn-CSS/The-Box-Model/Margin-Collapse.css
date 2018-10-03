@@ -1,0 +1,3 @@
+/*I learned that top and bottom margins collapse when situated next to each other. Horizontal margins and all paddings do not collapse - instead they are added together.
+The larger of the two vertical margins sets the distance between adjacent elements.
+*/
