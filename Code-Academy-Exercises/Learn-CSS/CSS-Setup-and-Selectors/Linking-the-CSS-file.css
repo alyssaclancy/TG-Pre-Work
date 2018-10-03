@@ -1,0 +1,12 @@
+p {
+    font-family: Arial;
+  }
+
+/*The link element must be included in the head to link HTML and CSS files together.
+The 3 attributes that must be included are href to point to the CSS path, type to confirm it is a CSS file (text/CSS in this case) ,
+and rel to describe the relationship (i.e. stylesheet). The relevant HTML code that was updated in the HTML file is in the comment below.*/
+
+/*<head>
+  <title>Vacation World</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>*/
