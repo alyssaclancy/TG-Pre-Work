@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  width:500px;
+  grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+  grid-gap: 5px;
+}
+
+.a {
+  grid-row: 5 / 7;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/*grid-row-start and grid-row-end can be combined into one command grid-row. The values are separated by  a slash,
+with start listed first and end listed second.
+If an element spans multiple rows or columns and a grid-gap exists, the gap will also be included in the new size the item assumes.
+Here, grid-row-start and grid-row-end were replaced with grid-row without changing the appearance on the webpage.
+*/

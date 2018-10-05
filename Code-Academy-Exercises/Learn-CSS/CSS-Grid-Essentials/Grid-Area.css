@@ -1,0 +1,39 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  width: 500px;
+  grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+  grid-gap: 5px;
+}
+
+.a {
+  grid-area: 5 / 1 / span 2 / span 2;
+}
+
+.b {
+  grid-area: 2 / 2 / span 3 / span 6;
+}
+
+.c {
+  grid-area: 6 / 8 / span 3 / span 1;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/*grid-row and grid-column can be encompassed in grid-area.
+The order of the four values that follows is:
+grid-row-start
+grid-column-start
+grid-row-end
+grid-column-end
+The HTML code was updated to add an item of class box and c in the grid class div:
+<div class="box c">C</div>
+grid-area for c was set to span rows 6-8 and column 8.
+The code for a and b was refactored to use grid-area, but show the same display on a webpage.
+*/

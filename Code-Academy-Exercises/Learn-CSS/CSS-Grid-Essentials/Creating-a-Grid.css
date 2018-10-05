@@ -1,0 +1,18 @@
+.grid {
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  display: grid;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/*I learned you need to have a grid container (parent) and grid items (children) to set up a grid.
+The element's display propery must be set to grid (for block-level) or inline-grid (for an inline).
+The display property for the elements within the class "grid" were set to have a display property of grid.
+*/

@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  grid-template: 40% 50% 50px / 100px 50% 200px;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/*grid-template can replace both grid-template-rows and grid-template-columns.
+The values before the slash are for row sizes and after are for column sizes.
+In this code, grid-template replaced the individual commands for columns and rows that previously existed, without changing the appearance of the webpage.
+*/

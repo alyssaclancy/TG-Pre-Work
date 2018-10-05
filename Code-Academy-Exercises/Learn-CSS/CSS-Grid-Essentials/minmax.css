@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  grid-template: repeat(3, 1fr) / 3fr minmax(50px, 300px) 1fr;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/*I learned that when you want a grid to resive based on the size of your web browser, but want to set limits on the sizes grid items can become, you can use minmax.
+minmax is followed by parentheses that enclose the minimum and maximum size the columns can become.
+The width property was deleted from .grid and then minmax was set for the second column between 50 and 300 pixels.
+*/
