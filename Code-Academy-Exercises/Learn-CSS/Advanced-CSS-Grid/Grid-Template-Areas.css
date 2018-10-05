@@ -1,0 +1,50 @@
+.container {
+  display: grid;
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  grid-gap: 10px;
+  grid-template-areas: "header header"
+   										 "nav nav"
+   										 "left right"
+   										 "footer footer";
+  grid-template-columns: 200px 400px;
+  grid-template-rows: 150px 200px 600px 200px;
+}
+
+h1, h2 {
+  font-family: monospace;
+  text-align: center;
+}
+
+header {
+  background-color: dodgerblue;
+  grid-area: header;
+}
+
+nav {
+  background-color: beige;
+  grid-area: nav;
+}
+
+.left {
+  background-color: dodgerblue;
+  grid-area: left;
+}
+
+.right {
+  background-color: beige;
+  grid-area: right;
+}
+
+footer {
+  background-color: dodgerblue;
+  grid-area: footer;
+}
+
+/*I learned that grid-template-areas allows you to name sections that can be used as values in the grid-area related properties.
+First you declare the grid-template-areas using the word references to setup the rows/columns and spanned rows/columns in the table.
+Then you tell each class what grid-area to occupy and define the sizes of the rows and columns.
+Here, the grid-template-areas was defined, then the grid-area in each class was defined.
+Finally, the columns and rows in the container class were set up.
+*/
