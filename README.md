@@ -34,4 +34,4 @@ Runtime is the period during which a computer program is executing. It can also 
 
 ## How many instances of the the databases connected to the server application are created?
 
-If I am understanding the question correctly, only one instance of the database connected to the server exists.
+If I am understanding the question correctly, additional instances of the database connected to the server are not created (unless there is a need due to size). There needs to be one ultimate source of data (i.e. remaining inventory of a product in an online shop) that the server-side code can access during client requests.
